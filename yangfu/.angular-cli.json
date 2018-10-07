@@ -20,8 +20,7 @@
       "prefix": "app",
       "styles": [
         "styles.css",
-        "../node_modules/_ng-zorro-antd@0.7.1@ng-zorro-antd/src/ng-zorro-antd.less",
-        "../node_modules/_bootstrap@3.3.7@bootstrap/dist/css/bootstrap.min.css"
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",

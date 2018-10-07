@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { NgZorroAntdModule } from 'ng-zorro-antd';
 import { RouterModule,Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
@@ -35,7 +34,6 @@ registerLocaleData(zh);
   ],
   imports: [
     BrowserModule,
-    NgZorroAntdModule.forRoot(),
     RouterModule.forRoot(routes),
   ],
   providers: [],
